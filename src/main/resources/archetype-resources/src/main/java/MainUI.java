@@ -14,8 +14,9 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 import javax.inject.Inject;
+import org.vaadin.maddon.layouts.MVerticalLayout;
 
-@CDIUI
+@CDIUI("")
 @Theme("apptheme")
 public class MainUI extends UI {
     static final String APP_NAME = "${artifactId}";
@@ -32,26 +33,22 @@ public class MainUI extends UI {
     @Override
     public void init(VaadinRequest request) {
 
-        VerticalLayout vl = new VerticalLayout();
         VerticalLayout mainarea = new VerticalLayout();
-
-	mainarea.setWidth("100%");
-
-        vl.addComponent(menu.getBasicMenu());
-        vl.addComponent(mainarea);
-        vl.addComponent(footer);
-        vl.setExpandRatio(mainarea, 1f);
-
-        //Uncomment for fixed app-height (screen-height);
-        //vl.setSizeFull();
-        
+ 
         Navigator navigator = new Navigator(this, mainarea);
         navigator.addProvider(viewProvider);
         navigator.setErrorView(ErrorView.class);
         
         footer.setName(APP_NAME);
         
-        setContent(vl);
+        setContent(
+                new MVerticalLayout(
+                        menu.getBasicMenu(),
+                        mainarea,
+                        footer)
+                // Comment for non-fixed app-height (screen-height);
+                .expand(mainarea)
+        );
     }    
 }
 
