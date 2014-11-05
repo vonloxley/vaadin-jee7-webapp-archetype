@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.hansche</groupId>
+  <artifactId>vaadin-jee7-webapp-archetype</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20141105072932</lastUpdated>
+  </versioning>
+</metadata>
