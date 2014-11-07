@@ -7,7 +7,21 @@ Archetype for Jave EE 7 webapps, based on Matti Tahvonen’s [java-ee7-app-stub]
 - Vaadin-maven-plugin
 - a default theme
 
+## Usage
+If just want to give it a try use it like this:
+
+~~~bash
+mvn \
+	-DarchetypeGroupId=de.hansche  \
+	-DarchetypeArtifactId=vaadin-jee7-webapp-archetype  \
+	-DarchetypeVersion=1.0-SNAPSHOT  \
+	-DarchetypeRepository=https://raw.githubusercontent.com/vonloxley/vaadin-jee7-webapp-archetype/mvn-repo/ \
+	archetype:generate
+~~~
+
 ## Install
+If you cloned the archetype read on.
+
 ~~~bash
 mvn install
 ~~~
