@@ -26,5 +26,5 @@ mvn \
 ## Start with
 1. Creating views. Have a look at the view-package to see how.
 2. Adding Entity Classes and Session Beans for Entity Classes.
-3. In Netbeans, installing the [Entity Expander](http://plugins.netbeans.org/plugin/53874/entityexpander) plugin and the nice [MaddonForm](https://java.net/projects/nb-api-samples/sources/api-samples/content/versions/8.0/misc/EntityExpander/src/org/netbeans/entity/expander/templates/MaddonForm.template) and [TableViewWithPopups](https://java.net/projects/nb-api-samples/sources/api-samples/content/versions/8.0/misc/EntityExpander/src/org/netbeans/entity/expander/templates/TableViewWithPopup.template) templates.
+3. In Netbeans, installing the [Entity Expander](http://plugins.netbeans.org/plugin/53874/entityexpander) plugin and the nice MaddonForm and TableViewWithPopups [templates](https://github.com/vonloxley/vaadin-jee7-entity-templates).
 
