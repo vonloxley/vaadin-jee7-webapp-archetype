@@ -11,7 +11,7 @@ import org.vaadin.maddon.label.RichText;
 import org.vaadin.maddon.layouts.MVerticalLayout;
 
 
-@CDIView
+@CDIView("")
 public class DefautView extends MVerticalLayout implements View {
 
     @PostConstruct
