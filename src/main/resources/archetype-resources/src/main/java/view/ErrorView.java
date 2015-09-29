@@ -5,8 +5,8 @@ package ${package}.view;
 
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
-import org.vaadin.maddon.label.RichText;
-import org.vaadin.maddon.layouts.MVerticalLayout;
+import org.vaadin.viritin.label.RichText;
+import org.vaadin.viritin.layouts.MVerticalLayout;
 
 public class ErrorView extends MVerticalLayout implements View {
 

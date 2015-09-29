@@ -8,8 +8,8 @@ import com.vaadin.event.LayoutEvents;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
 import javax.annotation.PostConstruct;
-import org.vaadin.maddon.label.Header;
-import org.vaadin.maddon.layouts.MVerticalLayout;
+import org.vaadin.viritin.label.Header;
+import org.vaadin.viritin.layouts.MVerticalLayout;
 
 @CDIView("Example")
 public class ExampleView extends MVerticalLayout implements View {

@@ -14,7 +14,7 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 import javax.inject.Inject;
-import org.vaadin.maddon.layouts.MVerticalLayout;
+import org.vaadin.viritin.layouts.MVerticalLayout;
 
 @CDIUI("")
 @Theme("apptheme")

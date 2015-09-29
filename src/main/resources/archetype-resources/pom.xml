@@ -80,10 +80,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.peimari</groupId>
-            <artifactId>maddon</artifactId>
-            <version>1.21</version>
-            <type>jar</type>
+            <groupId>org.vaadin</groupId>
+            <artifactId>viritin</artifactId>
+            <version>1.36</version>
         </dependency>
         
         <!-- Java EE 7 API -->
