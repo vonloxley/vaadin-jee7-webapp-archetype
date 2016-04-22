@@ -30,6 +30,8 @@
 @import "../valo/valo.scss";
 
 @mixin apptheme {
+  // Insert your own theme rules here.
+
+
   @include valo;
-  // Insert your own theme rules here
 }
