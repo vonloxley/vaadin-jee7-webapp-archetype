@@ -12,7 +12,8 @@ import org.vaadin.viritin.layouts.MVerticalLayout;
 
 
 @CDIView("")
-public class DefautView extends MVerticalLayout implements View {
+@ViewMenuItem(order = ViewMenuItem.BEGINNING)
+public class StartView extends MVerticalLayout implements View {
 
     @PostConstruct
     public void initComponent() {

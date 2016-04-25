@@ -52,7 +52,11 @@
             <artifactId>vaadin-cdi</artifactId>
             <version>1.0.3</version>
         </dependency>
-
+	<dependency>
+	    <groupId>org.vaadin</groupId>
+	    <artifactId>cdi-helpers</artifactId>
+	    <version>1.12</version>
+	</dependency>
         <dependency>
             <groupId>org.vaadin</groupId>
             <artifactId>viritin</artifactId>
