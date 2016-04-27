@@ -7,6 +7,7 @@ import com.vaadin.cdi.CDIView;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
 import javax.annotation.PostConstruct;
+import org.vaadin.cdiviewmenu.ViewMenuItem;
 import org.vaadin.viritin.label.RichText;
 import org.vaadin.viritin.layouts.MVerticalLayout;
 
