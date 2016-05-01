@@ -124,7 +124,7 @@
 					
 					<style>OBF</style>
 					<strict>true</strict>
-					<runTarget>http://localhost:8080/java-ee-7-webapp</runTarget>
+					<runTarget>http://localhost:8080/${artifactId}</runTarget>
 				</configuration>
 				<executions>
 					<execution>
