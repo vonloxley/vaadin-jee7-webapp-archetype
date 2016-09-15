@@ -9,9 +9,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <vaadin.version>7.7.0</vaadin.version>
-        <viritin.version>1.56</viritin.version>
-        <cdihelpers.version>1.12</cdihelpers.version>
+        <vaadin.version>7.7.1</vaadin.version>
+        <viritin.version>1.57</viritin.version>
+        <cdihelpers.version>1.13</cdihelpers.version>
         <vaadincdi.version>1.0.3</vaadincdi.version>
         <!-- If there are no local customisations, this can also be "fetch" or "cdn" -->
         <vaadin.widgetset.mode>local</vaadin.widgetset.mode>
