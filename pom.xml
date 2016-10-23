@@ -7,7 +7,7 @@
 
     <groupId>de.hansche</groupId>
     <artifactId>vaadin-jee7-webapp-archetype</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     
     <packaging>maven-archetype</packaging>
     
@@ -72,7 +72,6 @@
                 <executions>
                     <execution>
                         <id>attach-sources</id>
-                        <phase>verify</phase>
                         <goals>
                             <goal>jar-no-fork</goal>
                         </goals>
