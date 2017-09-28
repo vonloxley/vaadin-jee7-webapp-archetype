@@ -16,6 +16,8 @@ import org.vaadin.viritin.layouts.MVerticalLayout;
 @ViewMenuItem(order = ViewMenuItem.BEGINNING)
 public class StartView extends MVerticalLayout implements View {
 
+    private static final long serialVersionUID = 1L;
+
     @PostConstruct
     public void initComponent() {
         addComponents(

@@ -13,12 +13,14 @@ import com.vaadin.server.VaadinRequest;
 @Theme("apptheme")
 @Title("${artifactId}")
 public class MainUI extends ViewMenuUI {
+
+    private static final long serialVersionUID = 1L;
     static final String APP_NAME = "${artifactId}";
 
     @Override
     public void init(VaadinRequest request) {
-	super.init(request);
-    }    
+        super.init(request);
+    }
 }
 
 

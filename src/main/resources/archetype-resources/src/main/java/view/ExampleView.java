@@ -14,15 +14,13 @@ import org.vaadin.viritin.layouts.MVerticalLayout;
 @CDIView("Example")
 public class ExampleView extends MVerticalLayout implements View {
 
+    private static final long serialVersionUID = 1L;
+
     @PostConstruct
     public void initComponent() {
         addComponents(
                 new Header("Another view")
         );
-
-        addLayoutClickListener((LayoutEvents.LayoutClickEvent event) -> {
-        });
-
     }
 
     @Override
