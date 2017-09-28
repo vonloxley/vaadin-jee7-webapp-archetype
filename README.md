@@ -8,14 +8,13 @@ Archetype for Jave EE 7 webapps, based on Matti Tahvonen’s [java-ee7-app-stub]
 - a default theme
 
 ## Usage
-If just want to give it a try use it like this:
+If you want to give it a try start like this:
 
 ~~~bash
 mvn \
 	-DarchetypeGroupId=de.hansche  \
 	-DarchetypeArtifactId=vaadin-jee7-webapp-archetype  \
-	-DarchetypeVersion=1.0-SNAPSHOT  \
-	-DarchetypeRepository=https://raw.githubusercontent.com/vonloxley/vaadin-jee7-webapp-archetype/mvn-repo/ \
+	-DarchetypeVersion=8.1  \
 	archetype:generate
 ~~~
 
@@ -31,7 +30,7 @@ mvn install
 mvn \
 	-DarchetypeGroupId=de.hansche  \
 	-DarchetypeArtifactId=vaadin-jee7-webapp-archetype  \
-	-DarchetypeVersion=1.0-SNAPSHOT  \
+	-DarchetypeVersion=8.1  \
 	-DarchetypeRepository=local  \
 	-Dversion=1.0   \
 	archetype:generate
