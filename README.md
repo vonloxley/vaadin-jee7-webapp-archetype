@@ -14,7 +14,7 @@ If you want to give it a try start like this:
 mvn \
 	-DarchetypeGroupId=de.hansche  \
 	-DarchetypeArtifactId=vaadin-jee7-webapp-archetype  \
-	-DarchetypeVersion=8.1  \
+	-DarchetypeVersion=8.3  \
 	archetype:generate
 ~~~
 
@@ -30,7 +30,7 @@ mvn install
 mvn \
 	-DarchetypeGroupId=de.hansche  \
 	-DarchetypeArtifactId=vaadin-jee7-webapp-archetype  \
-	-DarchetypeVersion=8.1  \
+	-DarchetypeVersion=8.3  \
 	-DarchetypeRepository=local  \
 	-Dversion=1.0   \
 	archetype:generate
